@@ -11,17 +11,17 @@ int a,bas,kal,i=0,deger=1,yedek;
 printf("Sayiyi girin:");
 scanf("%d",&a);
 yedek=a;
-printf("Kaç basamak ayırmak istiyorsunuz:");
+printf("KaÃ§ basamak ayÄ±rmak istiyorsunuz:");
 scanf("%d",&bas);
 for(; i<bas;  i++){
 	kal=a%10;
 	a=a/10;
 	if(i==0){
-		printf("1'ler/lar basamağı=%d\t",kal);
+		printf("1'ler/lar basamaÄŸÄ±=%d\t",kal);
 	}
 	
 	else{
-	printf("%d'ler/lar basamağı=%d\t",deger,kal);
+	printf("%d'ler/lar basamaÄŸÄ±=%d\t",deger,kal);
 	}
 	
 	deger=deger*10;
